@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create design_brief.md for Aufgabenverwaltung dashboard",
+    "status": "completed",
+    "activeForm": "Creating design_brief.md for task management dashboard"
+  },
+  {
+    "content": "Apply CSS variables and font from design brief to index.css and index.html",
+    "status": "completed",
+    "activeForm": "Applying CSS variables and font from design brief"
+  },
+  {
+    "content": "Implement Dashboard.tsx following design_brief.md exactly",
+    "status": "completed",
+    "activeForm": "Implementing Dashboard.tsx"
+  },
+  {
+    "content": "Build and deploy to GitHub",
+    "status": "in_progress",
+    "activeForm": "Building and deploying to GitHub"
+  }
+]
