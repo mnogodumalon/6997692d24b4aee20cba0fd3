@@ -1,0 +1,3 @@
+- Aufgaben (aufgaben): aufgabe_titel[string/text], aufgabe_beschreibung[string/textarea], aufgabe_faelligkeit[date/date], aufgabe_prioritaet[lookup/select], aufgabe_kategorie[applookup/select], aufgabe_erledigt[bool]
+  → aufgabe_kategorie links to app_id 6997691c70d60eee9c1ba546
+- Kategorien (kategorien): kategorie_name[string/text], kategorie_beschreibung[string/textarea], kategorie_farbe[lookup/select]
