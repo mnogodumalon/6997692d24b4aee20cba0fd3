@@ -17,7 +17,7 @@ import {
   IconAlertCircle, IconPlus, IconCircleCheck, IconCircle, IconTrash,
   IconPencil, IconListCheck, IconAlertTriangle, IconClock, IconTag,
   IconFilter, IconSquareCheck, IconRocket, IconChevronRight,
-  IconCalendarPlus, IconPlayerPlay,
+  IconCalendarPlus, IconPlayerPlay, IconZoomCheck,
 } from '@tabler/icons-react';
 
 type PrioFilter = 'alle' | 'niedrig' | 'mittel' | 'hoch' | 'sehr_hoch';
@@ -155,6 +155,19 @@ export default function DashboardOverview() {
             <div className="flex-1 min-w-0">
               <p className="text-sm font-semibold text-foreground truncate">Aufgaben abarbeiten</p>
               <p className="text-xs text-muted-foreground mt-0.5 line-clamp-2">Offene Aufgaben nach Priorität oder Fälligkeit abarbeiten und als erledigt markieren</p>
+            </div>
+            <IconChevronRight size={16} className="text-muted-foreground shrink-0 group-hover:text-foreground transition-colors" />
+          </a>
+          <a
+            href="#/intents/aufgaben-ueberpruefen"
+            className="flex items-center gap-3 bg-card border border-border border-l-4 border-l-primary rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow group"
+          >
+            <div className="shrink-0 w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center">
+              <IconZoomCheck size={18} className="text-primary" />
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-sm font-semibold text-foreground truncate">Aufgaben überprüfen</p>
+              <p className="text-xs text-muted-foreground mt-0.5 line-clamp-2">Überfällige Aufgaben bereinigen: neu terminieren, als erledigt markieren oder löschen</p>
             </div>
             <IconChevronRight size={16} className="text-muted-foreground shrink-0 group-hover:text-foreground transition-colors" />
           </a>

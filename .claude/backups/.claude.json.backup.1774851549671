@@ -357,9 +357,5 @@
     "data": null,
     "timestamp": 1774609587743
   },
-  "sonnet1m45MigrationComplete": true,
-  "metricsStatusCache": {
-    "enabled": true,
-    "timestamp": 1774851549671
-  }
+  "sonnet1m45MigrationComplete": true
 }

@@ -7,6 +7,7 @@ import AufgabenPage from '@/pages/AufgabenPage';
 import KategorienPage from '@/pages/KategorienPage';
 import AufgabenPlanenPage from '@/pages/intents/AufgabenPlanenPage';
 import AufgabenAbarbeitenPage from '@/pages/intents/AufgabenAbarbeitenPage';
+import AufgabenUeberpruefenPage from '@/pages/intents/AufgabenUeberpruefenPage';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="admin" element={<AdminPage />} />
             <Route path="intents/aufgaben-planen" element={<AufgabenPlanenPage />} />
             <Route path="intents/aufgaben-abarbeiten" element={<AufgabenAbarbeitenPage />} />
+            <Route path="intents/aufgaben-ueberpruefen" element={<AufgabenUeberpruefenPage />} />
           </Route>
         </Routes>
       </ActionsProvider>
